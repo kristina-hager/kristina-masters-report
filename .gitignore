@@ -1,0 +1,27 @@
+##latex ignores
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.log
+*.out
+*.ind
+*.idx
+*.ilg
+*.lof
+*.lot
+*.toc
+
+##Ignore the final pdf and ps files
+## and some other files that show up in my set up
+##making these ignores very specific in case you have pdf images, etc
+#that you want to actually add
+.disstemplate.lb
+disstemplate.fdb_latexmk
+disstemplate.fls
+disstemplate.ps
+disstemplate.pdf
+pup-on-rug-eps-converted-to.pdf
+
+##vim ignores
+.*.swp
